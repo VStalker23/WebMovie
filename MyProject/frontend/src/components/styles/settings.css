@@ -1,0 +1,73 @@
+.homeh{
+  justify-content: center;
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.my-navbar {
+  position: fixed;
+ }
+
+.center-navbar{
+    width: 30%;
+    margin-left: 35%;
+
+  }
+
+.a{
+  color: aqua;
+  text-decoration-style:wavy;
+}
+.b{
+  color: greenyellow;
+  text-decoration-style:wavy;
+}
+.c{
+  color: mediumspringgreen;
+  text-decoration-style:wavy;
+}
+.d{
+  color: wheat;
+  text-decoration-style:wavy;
+}
+
+.hs{
+  font-size: 18px;
+  color: orange;
+  text-decoration-style:solid;
+}
+
+.hl{
+  font-size: 18px;
+  color: yellowgreen;
+  text-decoration-style:solid;
+}
+
+.cr{
+  font-size: 20px;
+  color: cadetblue;
+  text-decoration-style: solid;
+}
+
+.sez1{
+  background-image: url'https://wallpapercave.com/wp/wp6689710.jpg';
+}
+.sez2{
+  background-image: url'https://wallpapercave.com/wp/wp6689710.jpg';
+}
+
+
+.text-c {
+  color: aqua;
+}
+
+.contact-view{
+  background-image: url("https://images4.alphacoders.com/762/76256.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}

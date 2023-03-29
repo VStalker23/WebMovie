@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: movie-api
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://localhost:3300/moviedb
+    username: root
+    password: root
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: ${847881619d4a5398cc1f}
+            clientSecret: ${27cc4ad362cd91e087760a974e64a1243a50cb6c}
+
+app:
+  jwt:
+    secret: v9y$B&E)H@MbQeThWmZq4t7w!z%C*F-JaNdRfUjXn2r5u8x/A?D(G+KbPeShVkYp
+    expiration:
+      minutes: 10
+  oauth2:
+    redirectUri: http://localhost:3000/oauth2/redirect
+  cors:
+    allowed-origins: http://localhost:3000
+
+logging:
+  level:
+    org.springframework.security: DEBUG
